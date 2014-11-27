@@ -7,7 +7,7 @@ return array(
         'mysql' => array(
             'driver'    => 'mysql',
             'host'      => 'localhost',
-            'database'  => 'foobooks',
+            'database'  => 'sonasonic',
             'username'  => 'root',
             'password'  => 'yUugfyyJ2V',
         ),
