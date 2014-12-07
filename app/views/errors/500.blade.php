@@ -4,12 +4,12 @@
 <title>500 Internal Server Error</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
-<link rel='stylesheet' href='/errors.css' type='text/css'>
+<link rel='stylesheet' href='/css/errors.css' type='text/css'>
 
 <script type="text/javascript">
 <!--
 function delayer(){
-    window.location = "http://track.sonasonic.com/"
+    window.location = "http://p4.dagarwal-dwa.me/"
 }
 //-->
 </script>
@@ -18,7 +18,7 @@ function delayer(){
 
 <body>
 
-<body onLoad="setTimeout('delayer()', 15000)">
+<body onLoad="setTimeout('delayer()', 10000)">
 
 	<div class="wrap">
 	   <div class="logo">
