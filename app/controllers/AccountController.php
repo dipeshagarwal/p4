@@ -32,7 +32,7 @@ class AccountController extends \BaseController {
 		
 		# Step 1) Define the rules
 		$rules = array(
-			'yourname' => 'required',
+			'purchasedate' => 'required',
 		);
 
 		# Step 2)
