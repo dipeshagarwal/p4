@@ -70,7 +70,7 @@
                 <div class='flash-message'>{{ Session::get('flash_message') }}</div>
             @endif
         
-            <a href='/'><img class='logo' src='/images/sonalogo.PNG' alt='Trackers logo'></a>
+            <a href='/'><img class='logo' src='/images/sonalogo.png' alt='Trackers logo'></a>
         
             <nav>
                 <ul>
