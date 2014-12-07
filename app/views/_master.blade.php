@@ -77,8 +77,8 @@
                 @if(Auth::check())             
                   <!-- START DROP MENU -->
                     <ul id="main-menu" class="sm sm-blue">
-                        <li><a href="index.php"><img style=" margin-top:-6px; margin-bottom:-5px; " src="/images/home.png"  alt="home"  /></a></li>
-                        <li><a href="index.php">Hello {{ Auth::user()->name; }}!</a></li>
+                        <li><a href="/"><img style=" margin-top:-6px; margin-bottom:-5px; " src="/images/home.png"  alt="home"  /></a></li>
+                        <li><a href="/">Hello {{ Auth::user()->name; }}!</a></li>
                         <li><a href='/tracker'>All Trackers</a></li>
                         <li><a href='/tracker/create'>Add New Tracker</a></li>
                         <li><a href='/tracker/mytracker'>My Trackers</a></li>
