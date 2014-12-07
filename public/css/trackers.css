@@ -1,0 +1,116 @@
+body {
+	padding:20px;
+}
+
+.logo {
+	margin-bottom:20px;
+	display:block;
+}
+
+label,input {
+	display:block;
+	margin-top:10px;
+}
+
+.flash-message {
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:orange;
+	text-align:center;
+	padding:5px;
+}
+
+nav ul {
+	list-style-type:none;
+	padding:5px 0px 5px 0px;
+}
+
+nav ul li {
+	display:inline;
+	margin-right:10px;
+}
+
+a:link, a:visited, a:active, a:hover {
+	text-decoration:underline;
+}
+
+.tags {
+	color:grey;
+	font-family:consolas;
+}
+
+.tracker {
+	border:1px solid #ccc;
+	padding:10px;
+	padding-top:0px;
+	float:left;
+	width:300px;
+	margin-right:10px;
+	margin-bottom:10px;
+	height:500px;
+	font-size:14px;
+}
+
+
+.tracker img {
+	width: 60%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.tracker h2 { 
+	text-align: center; 
+}
+
+
+.tracker div {
+	padding:6px;
+}
+
+
+.account {
+	border:1px solid #ccc;
+	padding:10px;
+	padding-top:0px;
+	float:left;
+	width:300px;
+	margin-right:10px;
+	margin-bottom:10px;
+	height:580px;
+	font-size:14px;
+
+}
+
+
+.account img {
+    width: 60%;
+}
+
+
+.account div {
+	padding:4px;
+}
+
+.created_updated {
+	font-size:10px;
+	padding:0px;
+}
+
+
+.h2styling { width: 900px; padding: 0 40px; border: 3px solid #009999; background-color: #ccffff; border-radius: 25px; text-align:center;display: block;
+margin-left: auto;
+margin-right: auto
+}
+.h4styling { width: 300px; padding: 0 40px; border: 3px solid #009999; background-color: #FFFF99; border-radius: 25px; text-align:center;display: block;
+margin-left: auto;
+margin-right: auto
+}

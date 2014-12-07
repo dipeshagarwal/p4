@@ -1,0 +1,20 @@
+{
+	"S4 Vehicle Traclker": {
+		"id" : 0,
+		"accessory": "Relay",
+		"tags" : ["vehicle tracker","gps tracker",],
+		"price" : 100,
+		"image" : "http://sonasonic.com/wordpress/wp-content/uploads/2014/06/s4_6.jpg",
+		"description" : "Waterproof GPS Vehicle Tracker Waterproof Inbuilt GPSGSM Antenna",
+		"purchase_link" : "http://sonasonic.com/shop-2/gps-trackers/waterproof-vehicle-tracker-s4/"
+	},
+		"S8 Vehicle Traclker": {
+		"id" : 0,
+		"accessory": "Remote Control",
+		"tags" : ["vehicle tracker","gps tracker",],
+		"price" : 150,
+		"image" : "http://sonasonic.com/wordpress/wp-content/uploads/2014/06/s8_1-500x405.jpg",
+		"description" : "Waterproof GPS Vehicle Tracker with Remote control",
+		"purchase_link" : "http://sonasonic.com/shop-2/gps-trackers/waterproof-vehicle-tracker-s8/"
+	}
+}
