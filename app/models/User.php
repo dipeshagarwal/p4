@@ -29,6 +29,24 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
         return $this->hasMany('Addexistingtracker');
     }
 	
-	
+		/**
+	* http://laravel.com/docs/4.2/mail
+	*/
+	public function sendWelcomeEmail() {
+
+		# Create an array of data, which will be passed/available in the view
+		$data = array('user' => Auth::user());
+
+		Mail::send('emails.welcome', $data, function($message) {
+
+			$recipient_email = $this->email;
+			$recipient_name  = $this->name;
+			$subject  = 'Welcome '.$this->name.'!';
+
+    		$message->to($recipient_email, $recipient_name)->subject($subject);
+
+		});
+
+	}
 
 }
